@@ -1,9 +1,12 @@
 import React from 'react'
+import Resource from './Resource'
+import "tailwindcss";
 
 const App = () => {
   return (
     <div>
-      <h1>Hello React</h1>
+      
+      <Resource/>
     </div>
   )
 }
